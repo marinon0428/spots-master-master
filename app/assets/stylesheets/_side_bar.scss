@@ -1,0 +1,42 @@
+.contents {
+  height: calc(100vh - 95px);
+  width:50%;
+  margin-right: auto;
+  float: left;
+  border-right:dashed 4px rgb(244, 244, 241);
+  border-bottom:dashed 4px rgb(244, 244, 241);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  &__message{
+    padding: 30px;
+    color: whitesmoke;
+    font-size:50px;
+    text-align: center;
+  }
+  &__btn{
+    display: block;
+    height: 90px;
+    width :450px;
+    margin:0 auto 50px;
+    border-radius: 10px;
+    font-size:35px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 80px;
+    &--icon{
+      padding-right: 40px;
+    }
+    &--shoot{
+      background-color: #4169e1;
+    }
+    &--dribble{
+      background-color: #00bfff;
+    }
+    &--defense{
+      background-color: #0ef3be;
+    }
+    &--path{
+      background-color: #ff8c00;
+    }
+  }
+}

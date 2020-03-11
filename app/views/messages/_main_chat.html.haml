@@ -1,0 +1,86 @@
+.right-content
+  .messages
+    .message
+      .message__text
+        最近暑い
+        %br/
+        アイスは火曜日に新商品が出るらしい
+        %br/
+        バルミューダの扇風機高いね。
+      .message__user-name
+        komatta
+      .message__date
+        2018/08/01 11:50
+    .message
+      .message__text
+        MacBook 新機種でたら買いたい。メモリは16Gで！
+      .message__user-name
+        komatta
+      .message__date
+        2018/08/03 21:50
+    .message
+      .message__text
+        コーヒー飲みすぎ
+        %br/
+        胃が痛い日はカフェオレにしてる
+        %br/
+        ならコーヒー飲むな &gt; 自分
+      .message__user-name
+        komatta
+      .message__date
+        2018/07/11 07:11
+    .message
+      .message__text
+        ビューを書くのは楽しいな
+        %br/
+        バックも楽しいけどね。
+        %br/
+      .message__user-name
+        komatta
+      .message__date
+        2018/01/01 11:11
+    .message
+      .message__text
+        JavaScriptもっとかけるようになりたい。
+        %br/
+        ES6もうちょっとちゃんとやらないとなぁ。
+        %br/
+        オブジェクト指向で書けるようにならねば。
+      .message__user-name
+        komatta
+      .message__date
+        2018/08/01 10:03
+    .message
+      .message__text
+        JavaScriptもっとかけるようになりたい。
+        %br/
+        ES6もうちょっとちゃんとやらないとなぁ。
+        %br/
+        オブジェクト指向で書けるようにならねば。
+      .message__user-name
+        komatta
+      .message__date
+        2018/08/01 10:03
+    .message
+      .message__text
+        JavaScriptもっとかけるようになりたい。
+        %br/
+        ES6もうちょっとちゃんとやらないとなぁ。
+        %br/
+        オブジェクト指向で書けるようにならねば。
+      .message__user-name
+        komatta
+      .message__date
+        2018/08/01 10:03
+
+  .form
+    %form.new_message 
+      .input-box
+        %input{type: "text", class: "input-box__text",placeholder:"type a message"}
+        %label{class:"input-box__image"}
+          = icon('fas','image')
+          %input{type:"file",class: "input-box__image__file"}
+        %label{class:"input-box__image2"}
+          = icon('fas','image')
+          %input{type:"file",class: "input-box__image2__file"}
+      %input{type: "submit",class:"submit-btn"}
