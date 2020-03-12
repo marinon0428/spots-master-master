@@ -40,3 +40,24 @@
     }
   }
 }
+
+.side-bar{
+  display: flex;
+  .side-bar__user-name
+    .top-items{
+      text-align: center;
+      display: flex;
+      padding-top: 10px;
+      padding-left: 20px;
+      font-size: 23px;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+      .top-items__icons{
+        display: flex;
+        padding-left: 550px;
+      }
+      .top-items__icons2{
+        display: flex;
+        padding-left: 10px;
+      }
+}

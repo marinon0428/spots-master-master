@@ -13,3 +13,24 @@
   = link_to "https://www.instagram.com/", class: "contents__btn contents__btn--path" do
     = icon('fas', 'futbol', class: "contents__btn--icon")
     <b>path</b>
+
+
+
+.side-bar
+  .side-bar__user-name
+    .top-items
+      masa
+      .top-items__icons
+        = link_to new_group_path do
+          %i.fa.fa-cog.header-items__icons--cog
+      .top-items__icons2
+        = link_to edit_user_path(current_user.id) do
+          %i.fa.fa-cog.header-items__icons--cog
+  .side-bar__groups-list
+    - current_user.groups.each do |group|
+      .group
+        = link_to '#' do
+          .group__name
+            = group.name
+          .group__message
+            メッセージはまだありません。
