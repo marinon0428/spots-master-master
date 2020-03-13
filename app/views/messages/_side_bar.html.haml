@@ -26,11 +26,3 @@
       .top-items__icons2
         = link_to edit_user_path(current_user.id) do
           %i.fa.fa-cog.header-items__icons--cog
-  .side-bar__groups-list
-    - current_user.groups.each do |group|
-      .group
-        = link_to '#' do
-          .group__name
-            = group.name
-          .group__message
-            メッセージはまだありません。
