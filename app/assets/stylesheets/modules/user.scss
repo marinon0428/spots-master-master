@@ -1,20 +1,19 @@
 .account-page {
   .account-page__inner {
-    width: 980px;
-    margin: 60px auto;
+    background:url(Football.jpg);
+    width: 100%;
     padding: 60px;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    padding-left: 610px;
     border-radius: 5px;
+    height: 200vh;
+    display:  block;
 
     .account-page__inner--left, .account-page__inner--right {
-      float: left;
-      width: 50%;
+      width: 27%;
     }
     &:after {
       clear: both;
       content: "";
-      display: block;
     }
   }
 
@@ -22,7 +21,7 @@
     h2 {
       margin-bottom: 10px;
       letter-spacing: 3px;
-      font-size: 40px;
+      font-size: 20px;
       font-weight: 200;
 
       &:after {
