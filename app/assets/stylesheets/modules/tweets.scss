@@ -1,0 +1,19 @@
+.tweet-page {
+  .tweet-page__inner {
+    background:url(Football.jpg);
+    width: 100%;
+    padding: 60px;
+    padding-left: 610px;
+    border-radius: 5px;
+    height: 200vh;
+    display:  block;
+
+    .tweet-page__inner--left, .tweet-page__inner--right {
+      width: 27%;
+    }
+    &:after {
+      clear: both;
+      content: "";
+    }
+  }
+}
